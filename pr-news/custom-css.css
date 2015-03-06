@@ -1,0 +1,221 @@
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+.postmaintitle {
+	height: 117px;
+}
+
+.postcategory1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: 700;
+	color: #8a8c8e;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+.postcategory1 > a:hover {
+	color: #444;
+}
+
+.postcategory1 > a {
+	color: #8a8c8e;
+}
+
+.posttitle1 {
+	font-family: "open sans", arial, sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 7%;
+	margin-top: 4%;
+	margin-right: 3%;
+	margin-left: 3%;
+	color: #111;
+	line-height: 1.1em;
+	font-weight: 500;
+}
+
+.posttitle1:hover {
+	font-weight: 600;
+	text-decoration: none;
+	color: #333;
+}
+
+.posttitle1 a:hover {
+	text-decoration: none;
+}
+
+.postCategory > a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #8a8c8e;
+}
+
+.es_textbox {
+	padding-bottom: 0;
+}
+
+.es_textbox_button {
+	color: white;
+	background-color: #F26337;
+	border-color: #F26337;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	text-align: center;
+	padding: 11px 30px 12px;
+	border: 2px;
+}
+
+#email-subscribers-3 {
+	padding: 5px;
+	text-align: center;
+}
+
+#email-subscribers-2 {
+	padding: 5px;
+	text-align: center;
+}
+
+label, input, button, select, textarea {
+	font-size: 23px;
+	font-weight: 700;
+	line-height: 25px;
+}
+
+.wpp-thumbnail {
+	display: inline;
+	float: left;
+	margin: 0 5px 3px 0;
+	border: medium none;
+}
+
+ul.wpp-list {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.post-content > img {
+	width: 70%;
+	height: auto;
+	text-align: center;
+}
+
+.span6 {
+	width: 100%;
+}
+
+.navbar-inverse .navbar-inner {
+	background-color: white;
+	background-image: linear-gradient(to bottom,white,white);
+	background-repeat: repeat-x;
+	border-color: white;
+}
+
+.double-left-column img {
+	width: 100%;
+}
+
+.navbar .brand {
+	margin: 0;
+	padding: 5px;
+}
+
+.span3 {
+	padding-left: 0;
+	width: 32%;
+}
+
+.span9 {
+	width: 62%;
+	margin-left: -.9%;
+	margin-top: -20px;
+}
+
+.container {
+	margin-left: auto;
+	padding-right: auto;
+	margin-right: auto;
+	width: 88%;
+	padding-left: auto;
+}
+
+@media screen and (max-width: 760px) {
+	.container {
+		width: 100%;
+	}
+	
+	.span9 {
+		width: 100%;
+	}
+	
+	.span3 {
+		display: none;
+	}
+}
+
+.row {
+	margin-left: 0;
+	width: 100%;
+}
+
+[class*="span"].pull-right {
+	width: 100%;
+	margin-left: 0;
+}
+
+.follow-us {
+	width: 101.88%;
+	height: 42px;
+	background: #FFFFFF;
+}
+
+.saboxplugin-wrap .saboxplugin-authorname {
+	font-size: 27px;
+	line-height: 26px;
+	margin-top: 0;
+}
+
+.video-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+.video-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.container-fluid {
+	padding-left: 2%;
+	padding-right: 0;
+}

@@ -1,0 +1,63 @@
+<div class="container-fluid  container"> 
+	<div id="mcontainer">
+		<?php
+		prnews_sidebar_home($paged);		
+if (have_posts()) : while (have_posts()) : the_post(); ?>
+<div class="boxy">
+		<div id="post-<?php the_ID(); ?>" <?php post_class('thumb'); ?>>
+		<?php if(prnews_thumbnail($post->ID) =='') { 
+ the_excerpt(); 
+} else {
+ echo prnews_thumbnail($post->ID);
+}
+?>
+		
+		<div class="postmaintitle">
+		
+			<div class="postcategory1">
+			<?php 
+					$category = get_the_category(); 
+					if($category[0]){
+					echo '<a href="'.get_category_link($category[0]->term_id ).'">'.$category[0]->cat_name.'</a>';
+					}
+			?>	
+			</div>
+			<a href="<?php the_permalink(); ?>">
+			<div class="posttitle1"><?php the_title(); ?></div>
+			</a>
+
+		</div>
+<div>
+<!-- Social Share button 
+disabled for now
+-->
+<?php //require("social.php"); ?>
+</div>
+		</div>
+	</div>
+		<?php 
+		endwhile; 
+		else :
+		?>
+			<div class="boxy">
+				<div class="post-wrapper">
+					<div class="h1-wrapper">
+						<h1><?php _e( 'No Items Found', 'prnews' ); ?></h1>
+					</div>		
+	
+					<div class="post-content text-align-center">
+					<p><?php _e('Perhaps searching will help.', 'prnews'); ?></p>
+					<?php get_search_form(); ?>
+					</div>
+				</div>
+			</div>
+	</div>
+		<?php endif; 
+		?>
+	</div>
+	<div id="navigation">
+		<ul class="pager">
+			<li id="navigation-next"><?php next_posts_link(__('&laquo; Previous', 'prnews')) ?></li>
+			<li id="navigation-previous"><?php previous_posts_link(__('Next &raquo;', 'prnews')) ?></li>
+		</ul>
+	</div>

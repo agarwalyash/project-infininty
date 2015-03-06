@@ -1,0 +1,10 @@
+[12-Feb-2015 08:50:36 Etc/GMT] PHP Fatal error:  Call to undefined function wp_reset_query() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 2
+[12-Feb-2015 08:51:36 Etc/GMT] PHP Fatal error:  Call to undefined function get_posts() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 18
+[12-Feb-2015 08:52:46 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:52:48 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:52:52 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:52:52 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:52:52 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:52:53 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:52:53 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/randompost.php on line 1
+[12-Feb-2015 08:53:55 Etc/GMT] PHP Fatal error:  Call to undefined function get_header() in /home/thebigbl/public_html/swagistan.com/wp-content/themes/pr-news/index.php on line 1
